@@ -1,0 +1,25 @@
+Comandos de git:
+
+1- Hacer de una carpeta un repo:  git init
+
+2- Añade los cambios de los commits previos a la staging area: 
+											git add.  //sube todos los cambios del proyecto
+											git add nombre_del_archivo  // sube solo un archivo del repo
+
+3- Guardar cambios en repo local: git commit -m "este cambio incorpora X cosas nuevas"
+
+4- Nos musetra el estado del repo local y la staging area: git status
+
+5- Quitar los adds que tengas en la stage area: git reset & git reset nombre_del_archivo (para quitar uno solo)
+
+6- Crear repo en github si no lo tengo ya creado
+
+7- Añadir cambios al repo remoto : git remote add origin <URL_DEL_REPOSITORIO>
+
+8- Subir los cambios al repo remoto: git push -u origin master
+
+
+Comándos útiles:
+
+-Se baja los cambios del repo y hace un merge: git pull <URL_DEL_REPOSITORIO>
+-Clona un repo remoto en local: git clone <URL_DEL_REPOSITORIO>
